@@ -174,6 +174,7 @@ print("Python is " + x)
 
 #exe19
 
+"""
 x = "awesome"
 def myfunc():
     global x
@@ -182,3 +183,5 @@ def myfunc():
 myfunc()
 
 print("Python is " + x)
+"""
+
