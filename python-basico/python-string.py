@@ -74,6 +74,71 @@ if "expensive" not in txt:
 """
 
 
-
+"""
 b = "Hello , World!"
 print(b[2:5])
+"""
+
+"""
+b = "Hello, World!"
+print(b[:5])
+
+"""
+
+"""
+b = "Hello World!"
+print(b[2:])
+"""
+
+"""
+b = "Hello, World!"
+print(b[-5:-2])
+"""
+
+#converter para maiusculo
+"""
+a = "Hello, World!"
+print(a.upper())
+"""
+
+#Converter para minusculo
+"""
+a = "HELLO, WORLD!"
+print(a.lower())
+"""
+
+#removendo o espaço em branco
+"""
+a = " Hello, World! "
+print(a.strip())
+"""
+
+#Subistituir letras ou palavras
+"""
+a = "Hello, World!"
+print(a.replace("Hello", "Rafael"))
+
+"""
+
+#Dividir string
+"""
+a = "Hello, World!"
+print(a.split(","))
+"""
+
+#Juntar srting
+
+"""
+a = "Hello"
+b = "World"
+
+c = a + b
+print(c)
+"""
+
+a = "Hello"
+b = "World"
+
+c = a + ", " + b  + "!"
+print(c)
+
