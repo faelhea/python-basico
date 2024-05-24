@@ -16,6 +16,7 @@ x = bytearray(5)
 x = memoryview(bytes(5))		
 x = None
 #-----------------------------------------------
+#Setting the Specific Data Type
 x = str("Hello World")
 x = int(20)		
 x = float(20.5)
