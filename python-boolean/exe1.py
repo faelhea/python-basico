@@ -60,5 +60,41 @@ else:
     
 """
 
+"""
 x = 200
 print(isinstance(x, int))
+"""
+
+"""
+#Create Function
+def my_function():
+    print("Hello from a function")
+
+#Call Function
+my_function()
+"""
+
+"""
+def my_function(fname):
+    print(fname + "Refsnes")
+
+my_function("Email")
+my_function("Tobias")
+my_function("Linus")
+"""
+
+"""
+def my_function(fname, lname):
+    print(fname + " " + lname)
+
+my_function("Email", "Refsnes")
+"""
+
+"""
+def my_function(*kids):
+    print("The youngest child is " + kids[2])
+
+my_function("Emil", "Tobias", "Linus")
+"""
+
+
