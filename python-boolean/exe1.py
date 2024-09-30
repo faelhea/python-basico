@@ -97,4 +97,8 @@ def my_function(*kids):
 my_function("Emil", "Tobias", "Linus")
 """
 
+def my_function(child3, child2, child1):
+    print("The yougest child is " + child3)
+
+my_function(child1="Emil", child2="Tobias", child3="Linus")
 
