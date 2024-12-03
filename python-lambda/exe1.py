@@ -1,0 +1,1 @@
+print("Aprendendo Lambda com python")
